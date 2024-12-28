@@ -1,17 +1,12 @@
 {
   "name": "winrixai",
   "version": "1.0.0",
-  "main": "server.js",
+  "main": "index.js",
   "scripts": {
-    "stop": "kill-port 13095",
-    "start": "node server.js"
+    "start": "node index.js",
+    "stop": "kill-port 54112"
   },
-  "keywords": [],
-  "author": "",
+  "author": "VLAD",
   "license": "ISC",
-  "description": "",
-  "dependencies": {
-    "kill-port": "^2.0.1",
-    "nodemailer": "^6.9.16"
-  }
+  "description": ""
 }
